@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+header {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+#app {
+    max-width: 800px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+td {
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #e9ecef;
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #6c757d;
+}
